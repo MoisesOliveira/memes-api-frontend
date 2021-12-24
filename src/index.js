@@ -3,11 +3,22 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {
+  Routes, BrowserRouter,
+  Route
+} from "react-router-dom";
+import Home from './Components/Home.jsx';
+import Search from './Components/Search.jsx';
+import Test from './Components/Test.jsx'; 
+import './Components/styles/Home.css';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <BrowserRouter>
+    <Routes>
+      <Route path='/' exact element={< Home />} />
+      <Route path='/search' exact element={<Search />} />
+    </Routes>
+  </BrowserRouter>,
   document.getElementById('root')
 );
 

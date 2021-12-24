@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Inter','Poppins', san-serif;
+    text-align: center;
+}
+
+
+.first{
+    background-color: #292929;
+    color: rgb(214, 214, 214);
+}
+
+
+a:hover{
+    text-decoration: none;
+}
+
+ul li{
+    list-style: none;
+}
+
+.page-header{
+    padding: 100px;
+}
+
+.pd-4{
+    padding: 50px;
+}
+
+.sec{
+    background-color: rgb(207, 207, 207);
+}
+
+.svgs{
+    height: 30vmin;
+    margin-top: 0px;
+}
+
+.tp{
+    padding: 50px;
+    font-weight: 550;
+}
+
+.tp p{
+    padding: 14px;
+    font-weight: 500;
+}
+
+.btn-blue{
+    background-color: #6c63ff;
+    color: rgb(226, 226, 226);
+}
+
+@media only screen and (min-width: 600px) {
+    .third{
+        padding-top: 300px;
+        padding-bottom: 200px;
+    }
+  }
+@media screen and (max-width:400px) {
+    .third{
+        padding-bottom: 50px;
+    }
+}
+.hp-right{
+    padding-top: 20px;
+}
+
+footer{
+    background-color: #292929;
+    padding: 20px;
+    color: white;
+}
+
+.bi{
+    padding: 20px;
+    height: 100px;
+    color:rgb(207, 207, 207);
+}
+
+.link::before{
+    color: white;
+    text-decoration: none;
+}
+
+a{
+    color: white;
+}
+a:hover{
+    color: rgb(143, 143, 143);
+}
