@@ -8,15 +8,14 @@ import {
   Route
 } from "react-router-dom";
 import Home from './Components/Home.jsx';
-import Search from './Components/Search.jsx';
-import Test from './Components/Test.jsx'; 
+import Content from './Components/Content.jsx';
 import './Components/styles/Home.css';
 
 ReactDOM.render(
   <BrowserRouter>
     <Routes>
       <Route path='/' exact element={< Home />} />
-      <Route path='/search' exact element={<Search />} />
+      <Route path='content' exact element={<Content />} />
     </Routes>
   </BrowserRouter>,
   document.getElementById('root')

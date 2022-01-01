@@ -1,0 +1,30 @@
+img{
+    size: 30%;
+}
+.a{
+    width: 1px;
+}
+
+.but{
+    padding: 0px;
+    height: fit-content;
+}
+
+.input-div{
+    padding-top: 20px;
+    margin-left: 100px;
+}
+
+@media screen and (max-width: 500px) {
+    .input-div{
+        margin-left: 0;
+        margin-right: -100px;
+        display: -ms-inline-flexbox;
+        width: 5%;
+    }
+    .btn-primary{
+        margin-left: 40px;
+    }
+}
+
+
