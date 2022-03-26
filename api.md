@@ -12,6 +12,8 @@ FORMAT: 1A
 
             Accept: text/plain
 
+(...)
+
 ## Movie collection [/movies]
 
 ### List all Movies [GET]
