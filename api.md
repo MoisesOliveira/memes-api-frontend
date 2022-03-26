@@ -11,3 +11,9 @@ FORMAT: 1A
     + Headers
 
             Accept: text/plain
+
+### List all Movies [GET]
+
+List movies in reverse order of publication.
+
++ Response 200 (application/json)
